@@ -79,8 +79,8 @@ a:active{
         background-color: rgb(255, 192, 203, 0.5);
     }
     #name,#date,#time,#num{
-        width: 330px;
+        width: 280px;
         height: 45px;
-        font-size: 30px;
+        font-size: 20px;
     }
 }
