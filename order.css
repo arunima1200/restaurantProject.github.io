@@ -74,9 +74,9 @@ a:active{
         font-size: 40px;
         color: black;
     }
-    #name,#date,#time,#txt,#phn,#add{
-        width: 330px;
+   #name,#date,#time,#txt,#phn,#add{
+        width: 280px;
         height: 45px;
-        font-size: 30px;
+        font-size: 20px;
     }
 }
