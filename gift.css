@@ -37,3 +37,10 @@ a:hover{
 a:active{
     color: rgb(205, 118, 206);
 }
+@media screen and (max-width:550px){
+      #a2{
+        font-size: 4.5rem;
+        letter-spacing: 0.1rem;
+        margin-top: 1.5rem;
+    }
+}
