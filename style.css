@@ -1,0 +1,189 @@
+body{
+    background-image: url("https://img.freepik.com/premium-vector/happy-birthday-seamless-pattern-background-design_11980-345.jpg?w=2000");
+    background-size:600px 600px;
+}
+#head{
+    display: flex;
+    flex-wrap: nowrap;
+    word-spacing: .80rem;
+    background-color: rgb(255, 228, 196, 0.8);
+    justify-content: center;
+}
+.material-icons.fork-knife{
+    font-size: 130px;
+    margin: 1rem;
+}
+.material-icons.fk{
+    margin-top: 1rem;
+    margin-left: 0rem;
+}
+.p1{
+    font-size: 82px;
+    margin: 0.85rem;
+    font-family: 'Sail', cursive;
+    color: #030303;
+    letter-spacing: 0.35rem;
+    font-weight: bolder;
+    border: 3px solid rgba(1, 0, 0, 0.5);
+    padding: 12px;
+}
+.ul1{
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+.ul1 li{
+    margin: 5px;
+    padding: 27px;
+    font-size: 15px;
+    font-weight: 1000;
+    font-family: 'Cinzel', serif;
+    word-spacing: .3rem;
+}
+.main{
+    width: 60%;
+    height: 500px;
+    box-shadow: 1px 2px 10px 5px black;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.slide{
+    width: 100%;
+    height: 100%;   
+    position: absolute;
+}
+.prev1{
+    margin-left: 630px;
+    margin-top: 20px;
+    background: rgb(255, 255, 255, 0.5);
+    border: 3px solid black;
+    cursor: pointer;
+}
+.prev1:hover,.prev1:focus, .nxt1:hover, .nxt1:focus{
+    color: gray;
+}
+.nxt1{
+    position: relative;
+    margin-top: -100px;
+    margin-left: 740px;
+    top: -22px;
+    background: rgb(255, 255, 255, 0.5);
+    border: 3px solid black;
+    cursor: pointer;
+}
+.material-icons.prev2, .material-icons.nxt2{
+    font-size: 5.5rem;
+}
+footer{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    background-color: #030303;
+}
+#tagline{
+    font-family: 'Sail', cursive;
+    font-size: 30px;
+}
+#cpy{
+    font-size: 18px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(251, 239, 193);
+    text-decoration: none;
+}
+a:hover{
+    color: hotpink;
+    /* color: pink; */
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(205, 118, 206);
+    text-decoration: underline;
+}
+
+@media screen and (max-width:550px) {
+    #head{
+        display: flex;
+        flex-wrap: nowrap;
+        word-spacing: .20rem;
+        background-color: rgb(255, 228, 196, 0.8);
+        text-align: center;
+    }
+    .material-icons.fork-knife{
+        font-size: 4rem;
+        margin: 1rem;
+    }
+    .material-icons.fk{
+        margin-top: 1rem;
+        margin-left: .5rem;
+    }
+    .p1{
+        font-size: 2rem;
+        margin: 0.25rem;
+        letter-spacing: 0.1rem;
+        padding: 5px;
+    }
+    .ul1{
+        list-style-type: none;
+        display: grid;
+        background-color: rgb(0, 0, 0, 0.9);
+        height: 500px;
+        color: white;
+        margin: 60px;
+    }
+    .ul1 li{
+        margin: 10px;
+        margin-left: -30px;
+        padding: 2px;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 600;
+        font-family: 'Cinzel', serif;
+        word-spacing: 0rem;
+    }
+    .main{
+        width: 60%;
+        height: 250px;
+        box-shadow: 1px 2px 10px 5px black;
+        margin-top: 100px;
+        position: relative;
+    }
+    .prev1{
+        margin-left: 30%;
+        margin-top: 20px;
+    }
+    .nxt1{
+        position: relative;
+        margin-top: -100px;
+        margin-left: 50%;
+        top: -22px;
+    }
+    .material-icons.prev2, .material-icons.nxt2{
+        font-size: 3.5rem;
+    }
+    footer{
+        margin-top: 50px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        text-align: center;
+        color: white;
+        background-color: #030303;
+    }
+    #tagline{
+        font-family: 'Sail', cursive;
+        font-size: 25px;
+    }
+    #cpy{
+        font-size: 15px;
+    }
+}

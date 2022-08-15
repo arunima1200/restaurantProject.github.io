@@ -1,0 +1,86 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/679976.jpg");
+    background-size: cover;
+}
+.material-icons.back{
+    font-size: 6rem;
+    border-radius: 45px;
+    background-color:rgb(0, 128, 128, 0.7);
+}
+#a2{
+    text-align: center;
+    font-family: 'Sail', cursive;
+    font-size: 6rem;
+    font-weight: bolder;
+    letter-spacing: 0.35rem;
+    margin-top: 1.5rem;
+    color: black;
+    background-color: rgba(254, 254, 254, 0.3);
+}
+a:link{
+    color: snow;
+}
+a:visited{
+    color: rgb(251, 239, 193);
+}
+a:hover{
+    color:orangered;
+}
+a:active{
+    color: rgb(205, 118, 206);
+}
+#name,#date,#time,#num
+{
+    margin: 20px;
+    width: 350px;
+    height: 50px;
+    font-size: 30px;
+    border: 3px solid rgb(0, 0, 0);
+}
+#but{
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    border: 3px solid rgb(0, 0, 0);
+}
+#d2,#d3,#d4,#d5{
+    border: 4px solid rgb(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    background-color: rgb(250, 235, 215, 0.1);
+}
+#d6{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+@media screen and (max-width:550px){
+    body{
+        background-image: url("https://i.pinimg.com/736x/5b/f6/74/5bf674d190216768451f3f38651ebb15.jpg");
+        background-size: contain;
+    }
+    #a2{
+        text-align: center;
+        font-family: 'Sail', cursive;
+        font-size: 4.5rem;
+        font-weight: bolder;
+        letter-spacing: 0.1rem;
+        margin-top: 1.5rem;
+        color: black;
+        background-color: rgba(254, 254, 254, 0.3);
+    }
+    #d2,#d3,#d4,#d5{
+        font-size: 40px;
+        color: black;
+        background-color: rgb(255, 192, 203, 0.5);
+    }
+    #name,#date,#time,#num{
+        width: 330px;
+        height: 45px;
+        font-size: 30px;
+    }
+}

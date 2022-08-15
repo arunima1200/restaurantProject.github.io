@@ -1,0 +1,51 @@
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/blue-ethnic-geometric-mandala-print-colorful-background-texture-repeating-fabric-cloth-design-wallpaper-wrap-75923607.jpg");
+}
+
+.material-icons.back{
+    font-size: 6rem;
+    border-radius: 45px;
+    background-color:rgba(119, 158, 195, 0.5);
+}
+#a2{
+    text-align: center;
+    font-family: 'Sail', cursive;
+    font-size: 6rem;
+    font-weight: bolder;
+    letter-spacing: 0.35rem;
+    margin-top: 1.5rem;
+    color: white;
+    background-color: rgba(48, 45, 45, 0.3);
+}
+div img{
+    border: 5px solid black;
+}
+#d1{
+    font-size: 4rem;
+    color: white;
+    background-color: rgba(48, 45, 45, 0.3);
+    text-align: center;
+    font-weight: 800;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: rgb(251, 239, 193);
+}
+a:hover{
+    color:gold;
+}
+a:active{
+    color: rgb(205, 118, 206);
+}
+@media screen and (max-width:550px){
+    body{
+        background-size: 400px;
+    }
+    #img{
+        width: 350px;
+    }
+}
