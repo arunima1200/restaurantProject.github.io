@@ -8,13 +8,13 @@ body{
 }
 #d1{
     word-spacing: 50px;
+    margin-left: 25vw;
+    margin-top: 3%;
 }
 .fa-facebook{
     font-size: 6rem;
     border-radius: 45px;
     background-color: #4267B2;
-    margin-left: 400px;
-    margin-top: 100px;
 }
 .fa-instagram{
     font-size: 6rem;
@@ -72,10 +72,9 @@ a:active{
 @media screen and (max-width:550px){
     #d1{
         word-spacing: 10px;
+        margin-left: 15vw;
     }
     .fa-facebook{
-        margin-left: 50px;
-        margin-top: 80px;
         font-size: 2.5rem;
     }
     .fa-instagram,.fa-linkedin,.fa-twitter,.fa-youtube{
