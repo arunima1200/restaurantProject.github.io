@@ -22,13 +22,12 @@ body{
     text-align: center;
     font-size: 35px;
     color: black;
-    background-color: rgb(255, 105, 180, 0.3);
+    background-color: rgba(254, 254, 254, 0.5);
     font-weight: 900;
 }
 .p3{
     font-size: 4rem;
     background-color: rgb(255, 105, 180, 0.3);
-
 }
 .high{
     color: darkred;
