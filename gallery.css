@@ -19,6 +19,7 @@ body{
 }
 div img{
     border: 5px solid black;
+    width: 50vw;
 }
 #d1{
     font-size: 4rem;
