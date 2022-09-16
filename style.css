@@ -37,6 +37,7 @@ body{
 }
 .ul1 li{
     margin: 5px;
+    margin-left: 2px;
     padding: 27px;
     font-size: 15px;
     font-weight: 1000;
